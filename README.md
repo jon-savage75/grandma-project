@@ -18,3 +18,6 @@ program, I contained the user's answers and grandma's responses within a WHILE l
 with the condition that variable x be less than 2.  Each time the user enters 'BYE',
 the value of x is increased by 1.  To ensure that the user enters 'BYE' three times
 IN A ROW, I had the value of x be reset to 0 by any answer other than 'BYE'.
+
+I find spaces between the user's and grandma's responses to be more aesthetically
+pleasing, thus the large number of empty "puts" commands.

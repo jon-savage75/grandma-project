@@ -27,12 +27,14 @@ while x < 2
         puts ''
         answer = gets.chomp
         puts ''
+        x = 0
     elsif answer == answer.upcase && answer != 'BYE'
         year = get_year
         puts 'NO, NOT SINCE ' + year.to_s + '!'
         puts ''
         answer = gets.chomp
         puts ''
+        x = 0
     elsif answer == 'BYE'
         x += 1
         puts 'HUH?  WHAT DID YOU SAY?'

@@ -2,13 +2,6 @@
 
 # Refined Grandma Program
 
-# Get a random year from 1930-1950
-
-def get_year
-    year = rand(21) + 1930
-    return year
-end
-
 # Start with Grandma's greeting
 
 puts ''
@@ -19,6 +12,7 @@ puts ''
 
 answer = gets.chomp
 puts ''
+
 x = 0
 
 while x < 2
@@ -29,7 +23,7 @@ while x < 2
         puts ''
         x = 0
     elsif answer == answer.upcase && answer != 'BYE'
-        year = get_year
+        year = rand(21) + 1930
         puts 'NO, NOT SINCE ' + year.to_s + '!'
         puts ''
         answer = gets.chomp

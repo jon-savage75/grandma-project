@@ -10,6 +10,8 @@ puts 'HELLO, DEAR!  THIS IS GRANDMA!'
 puts 'HOW ARE YOU DOING?'
 puts ''
 
+# Get the user's initial answer and begin the main loop of the program
+
 answer = gets.chomp
 puts ''
 
